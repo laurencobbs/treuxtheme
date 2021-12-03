@@ -175,9 +175,7 @@ h4{
 }
 
 @media (max-width: 1100px){
-    body{
-        font-family: 'JetBrains Mono' !important;
-    }
+    
     .logo{
         width: 150px;
         align-items: center;
@@ -190,10 +188,12 @@ h4{
 
    .content h1{
        font-size: 40px;
+       font-family: 'JetBrains Mono' !important;
    }
 
    .content h3{
        font-size: 12px;
+       font-family: 'JetBrains Mono' !important;
        margin-top: 10%;
    }
 
@@ -248,6 +248,14 @@ h4{
         width: 45px;
         height: 45px;
      }
+}
+
+.footer{
+    font-family: 'JetBrains Mono' !important;
+}
+
+.title{
+    font-family: 'JetBrains Mono' !important;
 }
 
 
